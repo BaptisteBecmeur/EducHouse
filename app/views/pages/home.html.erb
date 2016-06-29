@@ -1,2 +1,35 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="coverhome">
+  <div class="coverhome-filter">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12">
+          <div class="home-wide">
+           <%=image_tag("educhouse-white-home.png", alt: "educhouse", class: 'educhouse-white-home' )%>
+          </div>
+            <h1 class="">
+              EducHouse : immergez-vous et progressez
+            <h1>
+            <h2>
+              le temps d'un week-end, d'une semaine ou d'un mois
+            </h2>
+          <ul class="list-unstyled list-inline">
+            <li>
+              <%= link_to root_path do %>
+              <div class="about-button">
+                <h5>À propos</h5>
+              </div>
+              <% end %>
+            </li>
+            <li>
+              <%= link_to root_path do %>
+                <div class=" about-button start-button">
+                  <h5>Découvrir</h5>
+                </div>
+              <% end %>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

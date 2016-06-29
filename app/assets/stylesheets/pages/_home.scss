@@ -2,3 +2,54 @@
  * CSS code specific to home page
  * (margin/padding adjustments)
  * ------------------------------------- */
+
+ .coverhome {
+  background-image: url("http://res.cloudinary.com/dnf589ipm/image/upload/v1467017601/girls-on-rooftop_ljwm0f.jpg");
+  background-size: cover;
+  position:relative;
+  height: 555px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: 50% 43%;
+  margin-top:0;
+  text-align:center;
+
+  .home-wide {
+    padding-top: 120px;
+  }
+
+  .educhouse-white-home {
+    width: 120px;
+  }
+
+   h1 {
+    margin:0;
+    padding-top: 5px;
+    // text-transform: uppercase;
+    // letter-spacing: 2px;
+    line-heigth: 35px;
+    font-weight:400;
+    font-size: 24px;
+    color: #fff;
+  }
+
+  h2 {
+    margin:0;
+    padding-top: 5px;
+    // text-transform: uppercase;
+    // letter-spacing: 2px;
+    line-heigth: 35px;
+    font-weight:400;
+    font-size: 22px;
+    color: #fff;
+  }
+
+.coverhome-filter {
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:absolute;
+    background: rgba(0,0,0,0.7);
+  }
+}
